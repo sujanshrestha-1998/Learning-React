@@ -1,0 +1,9 @@
+ <Card username="Hello World" buttonText="Click Me" /> // App.jsx
+ const Card = ({ username, buttonText }) => // Card.jsx
+
+ Props are simply the parameters we pass onto which would be helpful when changing the values in a tag dynamiacally
+
+ || are the or conditions and can be used like if yes then use the given if no provide a value which would be displayed if no value is passed
+
+  {buttonText || "Visit Me"} // Use Case I
+  const Card = ({ username, buttonText = "Visit Me" }) // Use Case II (Improves redability)
